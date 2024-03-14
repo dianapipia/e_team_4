@@ -152,6 +152,7 @@ span::before {
   margin: 0 auto;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 140px;
 }
 
 .card {
@@ -198,6 +199,90 @@ span::before {
   color: #4ce0d7;
 }
 /* small card style end */
+
+/* fashion photo container style */
+
+.big-photo-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.photo-wrapper {
+  position: relative;
+  margin-bottom: 103px;
+}
+
+.photo-wrapper img {
+  width: 1272px;
+  max-width: 1440px;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.fashion-button {
+  position: absolute;
+  top: 24px;
+  left: 47px;
+  padding: 10px 20px;
+  background-color: #262626;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px 81px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.read-more-button {
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #4ce0d7;
+}
+
+.content img {
+  width: 21px;
+  height: 13px;
+  margin-right: 10px;
+}
+
+.content {
+  max-width: 1440px;
+  width: 1044px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;  
+  text-align: left; 
+}
+
+.content h1,
+.content p,
+.content img,
+.read-more-button {
+  margin-bottom: 10px;
+}
+.content h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
 /* footer style */
 .footer {
