@@ -132,15 +132,17 @@ span::before {
   display: inline-block;
 }
 
-/*  small card styles*/
+/*  small card styles--------------*/
 
 .topics {
+  max-width: 1440px;
+  width: 1272px;
+  margin: 0 auto;
   margin-bottom: 48px;
-  margin-left: 84px;
+
   font-size: 32px;
   font-weight: 700;
   line-height: 48px;
-  text-align: left;
 }
 
 .container {
@@ -158,9 +160,7 @@ span::before {
   height: 291px;
   background-color: #ffffff;
   border-radius: 20px;
-
   flex-direction: column;
-
   box-shadow: 0px 6px 6px 0px #0000000d;
 }
 
@@ -179,7 +179,7 @@ span::before {
 }
 
 .button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 144px;
   padding: 10px;
   background-color: #4ce0d7;
@@ -197,6 +197,7 @@ span::before {
   background-color: black;
   color: #4ce0d7;
 }
+/* small card style end */
 
 /* footer style */
 .footer {
