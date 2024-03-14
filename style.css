@@ -241,6 +241,7 @@ span::before {
 .button-container {
   display: flex;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .read-more-button {
@@ -267,12 +268,80 @@ span::before {
   text-align: left;
 }
 
-.content h1,
-.content p,
-.content img,
-.read-more-button {
-  margin-bottom: 100px;
+.trending {
+  margin: 20px 0;
+  
 }
+
+.trendingp {
+  width: 471px;
+  padding: 0 74px 0 34px;
+}
+.trendingp p {
+  width: 464px;
+  }
+
+
+
+.trendingcards {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 1272px;
+
+  justify-content: space-between;
+
+}
+
+.trendingcard1,
+.trendingcard2 {
+  width: 48%;
+}
+
+.trendingimg img {
+  width: 100%;
+}
+
+.trendinginfo {
+  display: flex;
+  margin-top: 25px;
+
+   
+}
+
+.trendinginfo img {
+  width: 65px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-right:28px;
+  margin-left: 26px;
+  margin-bottom: 24px;
+}
+
+.trendinginfo p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+  margin-left: 30px;
+}
+
+.trendingp h4 {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+ 
+ 
+}
+
+.trendingp p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
 .content h1 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -281,9 +350,11 @@ span::before {
 .content p {
   font-size: 16px;
   margin-bottom: 20px;
-}
+}z
 .conteiner {
-  max-width: 1272px;
+
+  max-width: 1440px;
+  width: 1272px;
   margin: 0 auto;
   padding: 0 10px;
   display: flex;
@@ -292,10 +363,11 @@ span::before {
 .news-card {
   margin: 0 auto;
   background-color: #ffffff;
+  max-width: 1440px;
   width: 1204px;
   height: 368px;
   left: 35px;
-  margin: 10px;
+  margin: 0 auto;
   top: 35px;
   border-radius: 20px;
   margin-bottom: 50px;
