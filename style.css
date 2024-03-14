@@ -209,7 +209,6 @@ span::before {
   align-items: center;
   justify-content: center;
   text-align: center;
-
 }
 
 .photo-wrapper {
@@ -264,15 +263,15 @@ span::before {
   width: 1044px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;  
-  text-align: left; 
+  flex-direction: column;
+  text-align: left;
 }
 
 .content h1,
 .content p,
 .content img,
 .read-more-button {
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 .content h1 {
   font-size: 24px;
@@ -282,6 +281,69 @@ span::before {
 .content p {
   font-size: 16px;
   margin-bottom: 20px;
+}
+.conteiner {
+  max-width: 1272px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.news-card {
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 1204px;
+  height: 368px;
+  left: 35px;
+  margin: 10px;
+  top: 35px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+.image-container > main-image {
+  width: 547.51px;
+  height: 367.41px;
+}
+.image-container > glasses {
+  position: absolute;
+  top: 3789.95px;
+  left: 711px;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+}
+.p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.p > name {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.p > date {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 /* footer style */
