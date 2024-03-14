@@ -242,6 +242,7 @@ span::before {
   display: flex;
   align-items: center;
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .read-more-button {
@@ -270,18 +271,17 @@ span::before {
 
 .trending {
   margin: 20px 0;
-  
 }
 
 .trendingp {
   width: 471px;
   padding: 0 74px 0 34px;
+  gap: 30px;
 }
 .trendingp p {
   width: 464px;
-  }
-
-
+  padding: 10px;
+}
 
 .trendingcards {
   display: flex;
@@ -290,7 +290,6 @@ span::before {
   width: 1272px;
 
   justify-content: space-between;
-
 }
 
 .trendingcard1,
@@ -305,8 +304,6 @@ span::before {
 .trendinginfo {
   display: flex;
   margin-top: 25px;
-
-   
 }
 
 .trendinginfo img {
@@ -315,7 +312,7 @@ span::before {
   border-radius: 50%;
   margin-right: 10px;
   vertical-align: middle;
-  margin-right:28px;
+  margin-right: 28px;
   margin-left: 26px;
   margin-bottom: 24px;
 }
@@ -332,8 +329,6 @@ span::before {
   font-size: 26px;
   font-weight: 700;
   line-height: 39px;
- 
- 
 }
 
 .trendingp p {
@@ -350,9 +345,8 @@ span::before {
 .content p {
   font-size: 16px;
   margin-bottom: 20px;
-}z
-.conteiner {
-
+}
+z .conteiner {
   max-width: 1440px;
   width: 1272px;
   margin: 0 auto;
